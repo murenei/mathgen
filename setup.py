@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 with open("README.md", 'r') as fh:
     long_description = fh.read()
@@ -12,7 +12,7 @@ setup(name='mathgen',
       author='Richard Murray',
       author_email='rick.j.murray@gmail.com',
       license='MIT',
-      packages=setuptools.find_packages(),
+      packages=find_packages(),
       classifiers=(
           "Programming Language :: Python :: 3",
           "License :: OSI Approved :: MIT License",
