@@ -1,0 +1,10 @@
+*.DS_store
+*.egg
+*.pyc
+*.x3g
+/build
+/dist
+# /examgen/*.tex
+# /examgen/*.pdf
+*egg-info
+.coverage
